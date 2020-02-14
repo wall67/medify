@@ -1,0 +1,416 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+body{
+    margin: 0;
+    font-family: 'monteserrat';
+}
+
+p{
+    font-size: .9em;
+    line-height: 1,6em;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: .8em 1.2em;
+
+}
+
+.medi_page{
+    margin: .5em;
+}
+.heading{
+display: flex;
+margin-left: 25%;
+}
+.medi{
+font-weight:bolder ;
+color: black;
+font-size: xx-large;
+}
+.fy{
+    font-weight: bolder;
+    color:blue;
+    font-size: xx-large;
+}
+.subheading{
+    margin-top: -15%;
+    padding-bottom: 95%;
+}
+
+.get_started{
+    background: blue;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    font-size: small;
+}
+.flash{
+    margin: .5em;
+}
+.fash{
+    margin-right: 20em;
+    margin-bottom: 0;
+}
+
+.heading2{
+    margin-right: 20em;
+    display: flex;
+    
+    
+}
+.medii{
+    font-weight:bolder ;
+    color: black;
+    font-size: xx-large;
+    margin-top: 0;
+   
+    }
+    .fyy{
+        font-weight: bolder;
+        color:blue;
+        font-size: xx-large;
+        margin-top: 0;
+    }
+    .page2{
+       font-size: smaller;
+       font-weight: bolder;
+       line-height: 1.6em;
+    font-family: 'montserrat';
+    padding-bottom: 40%;
+    }
+
+    .blue_button{
+        background: blue;
+        color: #ffffff;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: small;
+    }
+   .white_button {
+    background:#fff5f5;
+    color: blue;
+    border-radius: 5px;
+    border-color: blue;
+    padding: 10px;
+    margin-top: 10%;
+    margin-bottom: 40%;
+    font-size: small;
+    }
+    .login_page{
+        background: blue;
+        color:white;
+        padding: .8em 1.2em;
+    }
+    .log{
+        padding-top:40px;
+    }
+    .wel{
+        color: lightgrey;
+        padding-bottom: 60px;
+    }
+    .h_line{
+        color: lightgrey;
+
+    }
+    .email{
+        color: lightgrey;
+    }
+
+    .password{
+        color: lightgrey;
+    }
+
+    .hh_line{
+        color: lightgrey;
+       margin-bottom: 30%;
+       font-weight: lighter;
+    }
+    .white_login{
+        background: #ffffff;
+        color: blue;
+       padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10%;
+        text-align: center;
+        font-size: smaller;
+    }
+    .Email_confirmation{
+    padding: .8em 1.2em;
+    font-family: 'monteserrat';
+    }
+    .Eheading{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: bolder;
+    }
+    .e_subheading{
+font-weight: bold;
+line-height: 1em;
+    }
+    .c_email{
+        color: blue;
+        font-size: small;
+        font-weight: bolder;
+        padding-bottom: 30px;
+    }
+    .w_email{
+color: lightgrey;
+margin-bottom: 50%;
+margin-top: 5%;
+    }
+    .yes_create{
+        font-size: small;
+        background: blue;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    .create{
+        padding-bottom: 45px;
+     
+    }
+
+    @media only screen and (min-width: 650px){
+
+
+
+        .subheading{
+            margin-top:-5%;
+            padding-bottom: 45%;
+        }
+
+        .heading{
+            display: flex;
+            margin-left: 40%;
+            margin-top: 5%;
+        }
+
+        .get_started{
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        .flash{
+            margin:7em;
+        }
+        .fash{
+            width:30px;
+        }
+
+       .blue_button{
+        margin-left: 10%;
+        margin-right: 10%;
+       }
+
+       .white_button{
+        margin-left: 10%;
+        margin-right: 10%;
+       }
+
+
+       .login_page{
+           padding: 5em;
+       }
+
+       .h_line{
+        margin-right: 55%;
+       }
+       .hh_line{
+        margin-right: 55%;
+       }
+
+       .white_login{
+           margin-right: 75%;
+           margin-right: 35%;
+       }
+
+       .Eheading{
+           margin-top: -10%;
+       }
+       .Email_confirmation{
+           padding: 7em;
+       }
+       .yes_create{
+           margin-left: 10%;
+           margin-right: 10%;
+       }
+       
+
+    }
+    
+
+    
+    @media only screen and (min-width: 875px){
+
+
+
+        .subheading{
+            margin-top:-4%;
+            padding-bottom: 45%;
+        }
+
+        .heading{
+            display: flex;
+            margin-left: 40%;
+            margin-top: 5%;
+        }
+
+        .get_started{
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        .flash{
+            margin:10em;
+        }
+        .fash{
+            width:30px;
+            margin-left: -30%;
+        }
+
+       .blue_button{
+        margin-left: 10%;
+        margin-right: 10%;
+       }
+
+       .white_button{
+        margin-left: 10%;
+        margin-right: 10%;
+       }
+
+
+       .login_page{
+           padding: 5em;
+       }
+
+       .h_line{
+        margin-right: 55%;
+       }
+       .hh_line{
+        margin-right: 55%;
+       }
+
+       .white_login{
+           margin-right: 75%;
+           margin-right: 35%;
+       }
+
+       .Eheading{
+           margin-top: -10%;
+       }
+       .Email_confirmation{
+           padding: 7em;
+       }
+       .yes_create{
+           margin-left: 10%;
+           margin-right: 10%;
+       }
+       
+
+    }
+    
+    
+    @media only screen and (min-width: 1024px){
+
+
+
+        .subheading{
+            margin-top:-3%;
+            padding-bottom: 45%;
+            font-size: x-large;
+           
+        }
+
+
+        .medi{
+            margin-left:5%;
+        }
+
+        .heading{
+            display: flex;
+            margin-left: 40%;
+            margin-top: 5%;
+            font-size: x-large;}
+
+        .get_started{
+            margin-left: 25%;
+            margin-right: 25%;
+            font-size: x-large;
+        }
+        .flash{
+            margin:10em;
+            font-size: x-large;
+        }
+        .fash{
+            width:45px;
+            margin-left: 0%;
+        }
+
+       .blue_button{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: x-large;
+       }
+
+       .white_button{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: x-large;
+       }
+
+
+       .login_page{
+           padding: 5em;
+           font-size: x-large;
+       }
+
+       .h_line{
+        margin-right: 55%;
+       }
+       .hh_line{
+        margin-right: 55%;
+       }
+
+       .white_login{
+           margin-right: 75%;
+           margin-right: 35%;
+       }
+
+       .Eheading{
+           margin-top: -5%;
+           font-size: xx-large;
+
+       }
+       .Email_confirmation{
+        font-size: x-large;
+           padding: 7em;
+       }
+           .c_email{
+            font-size: x-large;
+                   }
+
+        .w_email{
+            font-size: x-large;
+        }
+       
+       .yes_create{
+           margin-left: 10%;
+           margin-right: 10%;
+           font-size: x-large;
+       }
+       
+
+    }
+    
